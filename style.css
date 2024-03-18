@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.6), rgba(72, 0, 77, 0.6)), url(background.png);
+    background-size: cover;
+}
+nav{
+    padding: 24px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 40px;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 24px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #f5168d;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-image{
+    height: 20px;
+    margin-right: 12px;
+}
+
+section{
+    margin: 72px 80px;
+    color: #fff;
+
+}
+
+h1{
+    font-size: 56px;
+    line-height: 80px;
+    margin-bottom: 32px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 12px;
+    margin-top: 40px;
+    max-width: 800px;
+}
+
+input[type="text"]{
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+input[type="button"]{
+    border: 0;
+    border-radius: 3px;
+    background-color: #f5168d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 32px;
+}
